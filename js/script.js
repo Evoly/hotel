@@ -18,6 +18,21 @@ $(document).ready(function(){
     }
     ]
     });
+
+    $('.top-slider .slick-dots').appendTo('.js-new-buttons');
+
+    $(window).resize(function() {
+
+        var screenWidth = window.innerWidth;
+
+          if (screenWidth > 768) {
+
+          $('.top-slider .slick-dots').appendTo('.js-new-buttons');
+
+             }
+          // else $("#reserve").removeClass('btn-block')
+
+    });
   });
 
 
