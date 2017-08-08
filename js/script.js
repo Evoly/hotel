@@ -32,6 +32,19 @@ $(document).ready(function(){
     });
   });
 
+  $(function () {
+    $('#top-slider').carousel({
+        interval:2000,
+        pause: "false"
+    });
+    $('#carousel-play').click(function () {
+        $('#top-slider').carousel('cycle');
+    });
+    $('#carousel-pause').click(function () {
+        $('#top-slider').carousel('pause');
+    });
+});
+
 
   $(document).ready(function(){
       $('.another-slider').slick({
