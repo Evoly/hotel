@@ -1,48 +1,13 @@
 
 // top-slider
 
-$(document).ready(function(){
-    $('.top-slider').slick({
-      dots: true,
-      infinite: true,
-      autoplay:true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      prevArrow: $('.js-top-slider-prev'),
-      nextArrow: $('.js-top-slider-next'),
-      responsive: [
-      {
-      breakpoint: 990,
-      settings: "unslick"
-    }
-    ]
-    });
-
-    $('.top-slider .slick-dots').appendTo('.js-new-buttons');
-
-    $(window).resize(function() {
-
-        var screenWidth = window.innerWidth;
-
-          if (screenWidth > 990) {
-            $('.top-slider').slick();
-            $('.top-slider .slick-dots').appendTo('.js-new-buttons');
-
-             }
-    });
-  });
-
   $(function () {
     $('#top-slider').carousel({
-        interval:2000,
-        pause: "false"
-    });
-    $('#carousel-play').click(function () {
-        $('#top-slider').carousel('cycle');
-    });
-    $('#carousel-pause').click(function () {
-        $('#top-slider').carousel('pause');
-    });
+        interval:4000,
+        pause: "hover",
+    }).on('slide.bs.carousel', function () {
+        document.getElementById('video').pause();
+  });
 });
 
 
@@ -133,4 +98,4 @@ ymaps.ready(function () {
             preset: 'islands#dotIcon',
             iconColor: '#1e1a63'
         }))
-});
+})
