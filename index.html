@@ -94,16 +94,13 @@
       <div id="top-slider" class="carousel slide hidden-xs hidden-sm" data-ride="carousel">
 
         <div class="carousel-inner" role="listbox">
-          <!-- <div id="video" class="top-slider-item item active">
-            <iframe width="100%" height="550px" src="https://www.youtube.com/embed/txBfhpm1jI0?autoplay=1" frameborder="0" allowfullscreen></iframe>
-          </div> -->
           <div class="top-slider-item item active">
+            <iframe id="player1" width="100%" height="550px" src="https://www.youtube.com/embed/txBfhpm1jI0?enablejsapi=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="top-slider-item item ">
             <video id="video" controls>
                 <source src="media/'Thor_ Ragnarok' Official Trailer.mp4" type="video/mp4">
             </video>
-          </div>
-          <div class="top-slider-item item">
-            <img src="images/slider-top-1.png " alt="">
           </div>
           <div class="top-slider-item item">
             <img src="images/slider-top-1.png" alt="">
@@ -111,7 +108,7 @@
         </div>
 
         <div class="container carousel-dots">
-          <ol class="carousel-indicators">
+          <ol class="carousel-indicators js-bootstrap-btn">
               <li  class="active" data-target="#top-slider" data-slide-to="0"></li>
               <li data-target="#top-slider" data-slide-to="1"></li>
               <li data-target="#top-slider" data-slide-to="2"></li>
@@ -138,7 +135,7 @@
             <p class="slider-title">Сафари-Сауна</p>
             <p class="slider-tel">(4162) 200-305</p>
 
-            <div class="bootstrap-btn hidden-xs hidden-sm">
+            <div class="bootstrap-btn hidden-xs hidden-sm js-bootstrap-btn">
               <a class="left carousel-control" href="#top-slider" role="button" data-slide="prev">
                   <img src="images/left-top-slider.png" alt="">
                   <span class="sr-only">Previous</span>
@@ -155,51 +152,51 @@
     </div>
 
     <section class="container menu-section nopadding">
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="menu-item">
-          <a href="#"><img src="images/menu-1.png" alt="">
-            <span class="menu-item-text">Меню <br>ресторана</span>
-          </a>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="menu-item">
+            <a href="#"><img src="images/menu-1.png" alt="">
+              <span class="menu-item-text">Меню <br>ресторана</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+          <div class="menu-item">
+            <a href="#"><img src="images/menu-2.png" alt="">
+              <span class="menu-item-text">Меню <br>кофейни</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="menu-item">
+            <a href="#"><img src="images/menu-3.png" alt="">
+              <span class="menu-item-text">Банкеты</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="menu-item">
+            <a href="#"><img src="images/menu-4.png" alt="">
+              <span class="menu-item-text">Фуршеты</span>
+            </a>
+          </div>
+        </div>
+        <div class="menu-section-bg"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 ">
+          <div class="menu-item-right">
+            <a href="#"><img class="img-responsive" src="images/menu-5.png" alt="">
+              <span class="menu-item-text">Номера отеля <br>«На набережной»</span>
+            </a>
+          </div>
+        </div>
+        <div class="menu-item-left col-md-6 col-sm-12 col-xs-12 nopadding">
+          <p class="menu-item-title">Забронировать номер <br> вы можете по телефону <span>(4162) 200-305</span></p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-        <div class="menu-item">
-          <a href="#"><img src="images/menu-2.png" alt="">
-            <span class="menu-item-text">Меню <br>кофейни</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="menu-item">
-          <a href="#"><img src="images/menu-3.png" alt="">
-            <span class="menu-item-text">Банкеты</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="menu-item">
-          <a href="#"><img src="images/menu-4.png" alt="">
-            <span class="menu-item-text">Фуршеты</span>
-          </a>
-        </div>
-      </div>
-      <div class="menu-section-bg"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-sm-12 col-xs-12 ">
-        <div class="menu-item-right">
-          <a href="#"><img class="img-responsive" src="images/menu-5.png" alt="">
-            <span class="menu-item-text">Номера отеля <br>«На набережной»</span>
-          </a>
-        </div>
-      </div>
-      <div class="menu-item-left col-md-6 col-sm-12 col-xs-12 nopadding">
-        <p class="menu-item-title">Забронировать номер <br> вы можете по телефону <span>(4162) 200-305</span></p>
-      </div>
-    </div>
 
-  </section>
+    </section>
 
   <section class="container">
     <div class="row central-slider-section">
