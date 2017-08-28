@@ -84,3 +84,13 @@ ymaps.ready(function () {
             iconColor: '#1e1a63'
         }))
 })
+
+
+
+//hotel button show-all
+
+$(document).ready(function(){
+  // $(".js-room-show-all")click
+
+
+})
