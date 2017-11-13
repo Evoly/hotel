@@ -6,6 +6,7 @@
 @font-face {
     font-family: 'Corinthia';
     src: url('../fonts/Corinthia.ttf');
+    src: url('../fonts/Corinthia.eot');
     font-style: normal;
 }
 @font-face {
