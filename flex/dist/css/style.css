@@ -371,23 +371,23 @@ template {
 
 @font-face {
   font-family: 'Century Gothic';
-  src: url("../../resources/fonts/Century-Gothic.ttf");
+  src: url("../resources/fonts/Century-Gothic.ttf");
   font-style: normal; }
 
 @font-face {
   font-family: 'Corinthia';
-  src: url("../../resources/fonts/Corinthia.ttf");
-  src: url("../fonts/Corinthia.eot");
+  src: url("../resources/fonts/Corinthia.ttf");
+  /*src: url('../resources/fonts/Corinthia.eot');*/
   font-style: normal; }
 
 @font-face {
   font-family: 'Ledger';
-  src: url("../../resources/fonts/Ledger-Regular.ttf");
+  src: url("../resources/fonts/Ledger-Regular.ttf");
   font-style: normal; }
 
 @font-face {
   font-family: 'MinionPro-Regular';
-  src: url("../../resources/fonts/MinionPro-Regular.otf");
+  src: url("../resources/fonts/MinionPro-Regular.otf");
   font-style: normal; }
 
 html, body {
